@@ -1,5 +1,5 @@
 # LAMP
-This repo is the official implementation for: "LAMP: Leveraging Language Prompts for Multi-person Pose Estimation"
+This repo is the official implementation for: "LAMP: Leveraging Language Prompts for Multi-person Pose Estimation" @ IROS2023
 
 ## Method
 ![image](https://github.com/shengnanh20/LAMP/blob/main/lamp.png)
@@ -12,8 +12,8 @@ This repo is the official implementation for: "LAMP: Leveraging Language Prompts
 
 ## Datasets
 
-* OCHuman
-* CrowdPose
+* [OCHuman](https://github.com/liruilong940607/OCHumanApi)
+* [CrowdPose](https://github.com/Jeff-sjtu/CrowdPose)
 
 ## Training
 
