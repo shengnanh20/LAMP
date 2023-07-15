@@ -7,8 +7,10 @@ This repo is the official implementation for: "LAMP: Leveraging Language Prompts
 
 ## Requirements
 
-* 
-* 
+* python 3.9
+* pytorch 1.12.1
+* torchvision 0.13.1
+* clip 1.0
 
 ## Datasets
 
