@@ -39,5 +39,6 @@ Please cite the following papers if you find this dataset useful in your researc
 
 
 ## Reference
-* CID
-* 
+The code is mainly encouraged by
+* [CID](https://github.com/kennethwdk/CID)
+* [CLIP](https://github.com/openai/CLIP)
