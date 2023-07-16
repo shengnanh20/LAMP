@@ -27,7 +27,7 @@ This repo is the official implementation for: "LAMP: Leveraging Language Prompts
 
 ## Testing
 
-Any advise for common problems or issues.
+
 ```
 
 ```
