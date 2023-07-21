@@ -1,4 +1,4 @@
-CFG_NAME: '1102-hrner32-b16-cos-lr-0001-ep200-ijp-s1-1'
+CFG_NAME: 'hrner32-b16'
 AUTO_RESUME: True
 OUTPUT_DIR: runs
 PRINT_FREQ: 100
