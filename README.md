@@ -26,10 +26,6 @@ python3 tools/train.py --cfg experiments/ochuman.yaml --gpus 0,1,2,3
 where --cfg indicates the configure file and --gpus implys the numers of gpus.
 You can replace the configure file for other datasets.
 
-## Trained Models
-
-* [OCHuman](https://drive.google.com/drive/folders/1RC9rvOEB51kEpyqjnnAGNhUu_1h2V2KB?usp=sharing)
-* [Pretrained ImageNet](https://drive.google.com/drive/folders/1VXuTkiY12QzL9ZLjPzoYTYgBYWBctwxQ?usp=sharing)
 ## Testing
 
 * To test the model which has been trained on the OCHuman dataset, you can run the testing script as following:
