@@ -19,7 +19,7 @@ This repo is the official implementation for: "LAMP: Leveraging Language Prompts
 
 ## Training
 
-* To train on OChuman from ImageNet pretrained models with multiple gpus, you can run: 
+* To train on OCHuman from ImageNet pretrained models with multiple gpus, you can run: 
 ```
 python3 tools/train.py --cfg experiments/ochuman.yaml --gpus 0,1,2,3
 ```
