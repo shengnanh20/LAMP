@@ -28,8 +28,8 @@ You can replace the configure file for other datasets.
 
 ## Trained Models
 
-* [OCHuman] (https://drive.google.com/drive/folders/1RC9rvOEB51kEpyqjnnAGNhUu_1h2V2KB?usp=sharing)
-* [Pretrained ImageNet] (https://drive.google.com/drive/folders/1VXuTkiY12QzL9ZLjPzoYTYgBYWBctwxQ?usp=sharing)
+* [OCHuman](https://drive.google.com/drive/folders/1RC9rvOEB51kEpyqjnnAGNhUu_1h2V2KB?usp=sharing)
+* [Pretrained ImageNet](https://drive.google.com/drive/folders/1VXuTkiY12QzL9ZLjPzoYTYgBYWBctwxQ?usp=sharing)
 ## Testing
 
 * To test the model which has been trained on the OCHuman dataset, you can run the testing script as following:
