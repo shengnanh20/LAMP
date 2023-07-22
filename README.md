@@ -36,7 +36,7 @@ Replace MODEL_PATH with your local path of the trained model.
 
 ## Citation
 
-Please cite the following papers if you find this dataset useful in your research
+Please cite the following papers if you find this repository useful in your research.
 ```
 
 ```
