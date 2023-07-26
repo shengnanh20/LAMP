@@ -1,5 +1,5 @@
 # LAMP
-This repo is the official implementation for: ["LAMP: Leveraging Language Prompts for Multi-person Pose Estimation"] (https://arxiv.org/abs/2307.11934) @IROS2023
+This repo is the official implementation for: "[LAMP: Leveraging Language Prompts for Multi-person Pose Estimation](https://arxiv.org/abs/2307.11934)" @IROS2023
 
 ## Method
 ![image](https://github.com/shengnanh20/LAMP/blob/main/lamp.png)
