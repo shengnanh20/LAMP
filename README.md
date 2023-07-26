@@ -43,7 +43,7 @@ Please cite the following paper if you find this repository useful in your resea
       author={Shengnan Hu and Ce Zheng and Zixiang Zhou and Chen Chen and Gita Sukthankar},
       year={2023},
       eprint={2307.11934},
-      archivePrefix={arXiv},
+      archivePrefix={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
       primaryClass={cs.CV}
 }
 ```
