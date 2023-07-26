@@ -1,5 +1,5 @@
 # LAMP
-This repo is the official implementation for: "LAMP: Leveraging Language Prompts for Multi-person Pose Estimation" @IROS2023
+This repo is the official implementation for: ["LAMP: Leveraging Language Prompts for Multi-person Pose Estimation"] (https://arxiv.org/abs/2307.11934) @IROS2023
 
 ## Method
 ![image](https://github.com/shengnanh20/LAMP/blob/main/lamp.png)
@@ -38,7 +38,14 @@ Replace MODEL_PATH with your local path of the trained model.
 
 Please cite the following paper if you find this repository useful in your research.
 ```
-
+@misc{hu2023lamp,
+      title={LAMP: Leveraging Language Prompts for Multi-person Pose Estimation}, 
+      author={Shengnan Hu and Ce Zheng and Zixiang Zhou and Chen Chen and Gita Sukthankar},
+      year={2023},
+      eprint={2307.11934},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 
