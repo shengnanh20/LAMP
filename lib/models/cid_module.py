@@ -178,7 +178,17 @@ class GFD(nn.Module):
         self.prior_prob = 0.01
         bias_value = -math.log((1 - self.prior_prob) / self.prior_prob)
         self.heatmap_conv.bias.data.fill_(bias_value)
-         
+
+        self.vit_global = ViT(
+                    dim=128,
+                    image_size=128,
+                    patch_size=4,
+                    heads=8,
+                    dim_head = 16, 
+                    mlp_dim = 64,
+                    channels=32,
+                    )
+       
         self.vit = ViT(
                     dim=128,
                     image_size=128,
@@ -217,6 +227,9 @@ class GFD(nn.Module):
         self.clip_pretrained, _ = clip.load("ViT-B/32", device='cuda', jit=False, download_root='/home/zxi/snh/clip/')
         
         self.joint_text_features = None
+
+        self.decoder_layer_ins = nn.TransformerDecoderLayer(d_model=self.inter_channels , nhead=8, dropout=0.1, batch_first=True)
+        self.transformer_decoder_ins = nn.TransformerDecoder(self.decoder_layer_ins, num_layers=1)
         
         self.decoder_layer_joint = nn.TransformerDecoderLayer(d_model=self.inter_channels , nhead=8, dropout=0.1, batch_first=True)
         self.transformer_decoder_joint = nn.TransformerDecoder(self.decoder_layer_joint, num_layers=1)
